@@ -34,13 +34,13 @@ THEN I am taken to the corresponding section of the README
 
 ## Problems Solved
 
-. When the user runs the application, they are prompted to answer a number of questions
-    . The answers to these questions are used to generate their README
-. When the user enters their project title, it is displayed as the title of their README
-. When the user enters a description, installation instructions, usage information, credits, contribution guidelines and test instructions, these answers are added to their respective sections in the README
-. When the user chooses a license, a bade for that license is displayed under the title and the Lincese section of the README is populated to show that the application is covered by that license
-. When the user enters their username and email address, they are added to the questions section
-. When the user clicks on any of the links in the table of contents, they are taken to the correct section of the README
+- When the user runs the application, they are prompted to answer a number of questions
+    - The answers to these questions are used to generate their README
+- When the user enters their project title, it is displayed as the title of their README
+- When the user enters a description, installation instructions, usage information, credits, contribution guidelines and test instructions, these answers are added to their respective sections in the README
+- When the user chooses a license, a bade for that license is displayed under the title and the Lincese section of the README is populated to show that the application is covered by that license
+- When the user enters their username and email address, they are added to the questions section
+- When the user clicks on any of the links in the table of contents, they are taken to the correct section of the README
 
 ## Screenshot
 
