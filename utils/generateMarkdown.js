@@ -30,10 +30,63 @@ This project is licensed under the ${license} license`
   }
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+${renderLicenseBadge(data.license)}
 
+## Description
+
+${data.description}
+
+## Table of Contents
+
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [Credits](#credits)
+
+* [Contribute](#contribute)
+
+* [Tests](#tests)
+
+* [Questions](#questions)
+
+## Installation
+
+To install any necessary dependencies, run the following command in the terminal:
+
+\`\`\`
+${data.installation}
+\`\`\`
+
+## Usage
+
+${data.usage}
+
+## Credits
+
+${data.credits}
+
+${renderLicenseSection(data.license)}
+
+## Contribute
+
+${data.contribute}
+
+## Tests
+
+To run any tests, run the following command in the terminal:
+
+\`\`\`
+${data.tests}
+\`\`\`
+
+## Questions
+
+If you have any questions or have found a bug, feel free to open an issue or contact me at ${data.email}
+
+To see more of my work go to [${data.username}](https://github.com/${data.username})
 `;
 }
 
