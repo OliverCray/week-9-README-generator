@@ -45,7 +45,7 @@ ${data.description}
 * [Usage](#usage)
 
 * [Credits](#credits)
-
+${renderLicenseLink(data.license)}
 * [Contribute](#contribute)
 
 * [Tests](#tests)
