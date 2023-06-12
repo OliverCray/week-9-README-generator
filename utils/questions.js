@@ -1,3 +1,4 @@
+// Questions that will be passed into inquirer.prompt
 const questions = [
     {
         type: 'input',
