@@ -48,4 +48,4 @@ THEN I am taken to the corresponding section of the README
 
 ## Demonstration Video
 
-A demonstration video is availabe here:
+A demonstration video is availabe here: https://drive.google.com/file/d/14VPWO6lP8tueFVxjuQwnMKEKvED6KRTc/view
